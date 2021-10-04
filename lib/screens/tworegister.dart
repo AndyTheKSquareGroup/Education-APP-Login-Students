@@ -47,6 +47,7 @@ class _TwoCreateAccountState extends State<TwoCreateAccount> {
                   child: const Text(
                     "KSquare Education Institute",
                     style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                    textAlign: TextAlign.center,
                   ),
                 ),
                 Container(
