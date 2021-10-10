@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sixtheducation/screens/onelogin.dart';
+import 'package:sixtheducation/screens/loginScreen.dart';
 
-class FirstEditProfile extends StatefulWidget {
-  const FirstEditProfile({Key? key}) : super(key: key);
+class EditProfileScreen extends StatefulWidget {
+  const EditProfileScreen({Key? key}) : super(key: key);
   @override
-  _FirstEditProfileState createState() => _FirstEditProfileState();
+  _EditProfileScreenState createState() => _EditProfileScreenState();
 }
 
-class _FirstEditProfileState extends State<FirstEditProfile> {
+class _EditProfileScreenState extends State<EditProfileScreen> {
   TextEditingController _nameUser = TextEditingController(text: "Andy KT");
   TextEditingController _emailCtrl =
       TextEditingController(text: "uriel@theksquaregroup.com");

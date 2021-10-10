@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sixtheducation/screens/threeHomeStudents.dart';
-import 'package:sixtheducation/screens/tworegister.dart';
+import 'package:sixtheducation/screens/homeNavBarScreen.dart';
+import 'package:sixtheducation/screens/registerScreen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -80,7 +80,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         padding: const EdgeInsets.all(5),
                         child: ElevatedButton(
                           onPressed: () {
-                            Get.to(ThirdHomeStudents());
+                            Get.to(HomeScreen());
                           },
                           style: ElevatedButton.styleFrom(
                               minimumSize: const Size(double.infinity, 50),

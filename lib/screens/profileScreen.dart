@@ -1,19 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:sixtheducation/screens/fourthEditProfileStudents.dart';
+import 'package:sixtheducation/screens/editProfileScreen.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:sixtheducation/screens/studentInfoEvents.dart';
+import 'package:sixtheducation/screens/infoEventsForCalendar.dart';
 
-class FourthManageProfileStudents extends StatefulWidget {
-  const FourthManageProfileStudents({Key? key}) : super(key: key);
+class ProfileScreen extends StatefulWidget {
+  const ProfileScreen({Key? key}) : super(key: key);
   @override
-  _FourthManageProfileStudentsState createState() =>
-      _FourthManageProfileStudentsState();
+  _ProfileScreenState createState() => _ProfileScreenState();
 }
 
-class _FourthManageProfileStudentsState
-    extends State<FourthManageProfileStudents> {
+class _ProfileScreenState extends State<ProfileScreen> {
   var isSwitched = true;
 
   //School events
@@ -94,7 +92,7 @@ class _FourthManageProfileStudentsState
                         Container(
                           child: TextButton(
                             onPressed: () {
-                              Get.to(FirstEditProfile());
+                              Get.to(EditProfileScreen());
                             },
                             child: Text(
                               "Edit",

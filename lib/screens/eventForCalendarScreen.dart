@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class Event {
+class EventForCalendarScreen {
   final String title;
-  Event({required this.title});
+  EventForCalendarScreen({required this.title});
 
   String toString() => this.title;
 }

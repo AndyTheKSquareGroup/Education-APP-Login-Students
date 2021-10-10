@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:sixtheducation/screens/threeModelStudents.dart';
-import 'package:sixtheducation/screens/threeProfileStudents.dart';
-import 'package:sixtheducation/screens/threeeCalendarStudents.dart';
+import 'package:sixtheducation/screens/homeModelScreen.dart';
+import 'package:sixtheducation/screens/profileScreen.dart';
+import 'package:sixtheducation/screens/calendarScreen.dart';
 
-class ThirdHomeStudents extends StatefulWidget {
-  const ThirdHomeStudents({Key? key}) : super(key: key);
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({Key? key}) : super(key: key);
   @override
-  _ThirdHomeStudentsState createState() => _ThirdHomeStudentsState();
+  _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _ThirdHomeStudentsState extends State<ThirdHomeStudents> {
+class _HomeScreenState extends State<HomeScreen> {
   var _selectedIndex = 0;
   List<Widget> _widgetNavBar = <Widget>[
     ModelNotiStudents(),
-    Calendar(),
-    FourthManageProfileStudents(),
+    CalendarScreen(),
+    ProfileScreen(),
   ];
   void _tapNavBar(var index) {
     setState(() {

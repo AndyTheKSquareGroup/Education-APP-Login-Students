@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class EventRequestLogic extends StatelessWidget {
+class RequestLogicCalendarScreen extends StatelessWidget {
   String titleEvent = "";
   String content = "";
 
-  EventRequestLogic({required this.titleEvent, required this.content});
+  RequestLogicCalendarScreen({required this.titleEvent, required this.content});
   @override
   Widget build(BuildContext context) {
     return Scaffold(

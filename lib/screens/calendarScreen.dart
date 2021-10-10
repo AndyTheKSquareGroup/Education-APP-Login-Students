@@ -1,14 +1,14 @@
-import 'package:sixtheducation/screens/event.dart';
+import 'package:sixtheducation/screens/eventForCalendarScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
 
-class Calendar extends StatefulWidget {
+class CalendarScreen extends StatefulWidget {
   @override
-  _CalendarState createState() => _CalendarState();
+  _CalendarScreenState createState() => _CalendarScreenState();
 }
 
-class _CalendarState extends State<Calendar> {
-  late Map<DateTime, List<Event>> selectedEvents;
+class _CalendarScreenState extends State<CalendarScreen> {
+  late Map<DateTime, List<EventForCalendarScreen>> selectedEvents;
   CalendarFormat format = CalendarFormat.month;
   DateTime selectedDay = DateTime.now();
   DateTime focusedDay = DateTime.now();
@@ -21,7 +21,7 @@ class _CalendarState extends State<Calendar> {
     super.initState();
   }
 
-  List<Event> _getEventsfromDay(DateTime date) {
+  List<EventForCalendarScreen> _getEventsfromDay(DateTime date) {
     return selectedEvents[date] ?? [];
   }
 
@@ -104,7 +104,7 @@ class _CalendarState extends State<Calendar> {
                 ),
               ),
               ..._getEventsfromDay(selectedDay).map(
-                (Event event) => ListTile(
+                (EventForCalendarScreen event) => ListTile(
                   title: Text(
                     event.title,
                   ),
@@ -135,11 +135,11 @@ class _CalendarState extends State<Calendar> {
                   } else {
                     if (selectedEvents[selectedDay] != null) {
                       selectedEvents[selectedDay]!.add(
-                        Event(title: _eventController.text),
+                        EventForCalendarScreen(title: _eventController.text),
                       );
                     } else {
                       selectedEvents[selectedDay] = [
-                        Event(title: _eventController.text)
+                        EventForCalendarScreen(title: _eventController.text)
                       ];
                     }
                   }
