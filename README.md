@@ -15,12 +15,21 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-![alt text](https://github.com/AndyTheKSquareGroup/Education-APP-Login-Students/blob/master/evidence/1.jpeg)
-![alt text](https://github.com/AndyTheKSquareGroup/Education-APP-Login-Students/blob/master/evidence/2.jpeg)
-![alt text](https://github.com/AndyTheKSquareGroup/Education-APP-Login-Students/blob/master/evidence/3.jpeg)
-![alt text](https://github.com/AndyTheKSquareGroup/Education-APP-Login-Students/blob/master/evidence/4.jpeg)
-![alt text](https://github.com/AndyTheKSquareGroup/Education-APP-Login-Students/blob/master/evidence/5.jpeg)
-![alt text](https://github.com/AndyTheKSquareGroup/Education-APP-Login-Students/blob/master/evidence/6.jpeg)
-![alt text](https://github.com/AndyTheKSquareGroup/Education-APP-Login-Students/blob/master/evidence/7(2).jpeg)
-![alt text](https://github.com/AndyTheKSquareGroup/Education-APP-Login-Students/blob/master/evidence/8.jpeg)
-![alt text](https://github.com/AndyTheKSquareGroup/Education-APP-Login-Students/blob/master/evidence/9.jpeg)
+
+<table>
+  <tr>
+    <td><img src="./evidence/1.jpeg" width=270 height=480></td>
+    <td><img src="./evidence/2.jpeg" width=270 height=480></td>
+    <td><img src="./evidence/3.jpeg" width=270 height=480></td>
+  </tr>
+  <tr>
+    <td><img src="./evidence/4.jpeg" width=270 height=480></td>
+    <td><img src="./evidence/5.jpeg" width=270 height=480></td>
+    <td><img src="./evidence/6.jpeg" width=270 height=480></td>
+  </tr>
+  <tr>
+    <td><img src="./evidence/7 (2).jpeg" width=270 height=480></td>
+    <td><img src="./evidence/8.jpeg" width=270 height=480></td>
+    <td><img src="./evidence/9.jpeg" width=270 height=480></td>
+  </tr>
+ </table>
