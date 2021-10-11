@@ -101,7 +101,7 @@ class _ModelNotiStudentssState extends State<ModelNotiStudents> {
                               // decorationColor: Colors.grey,
                             ),
                           ),
-                          tileColor: Colors.red[200],
+                          tileColor: null,
                           subtitle: Text(
                             "${_event[index]['yoast_head_json']['description']} VIEW MORE...",
                           ),
